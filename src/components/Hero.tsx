@@ -177,7 +177,7 @@ export function Hero() {
               <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
                 Years coding
               </div>
-              <div className="mt-1 font-display text-3xl text-gradient-gold">4+</div>
+              <div className="mt-1 font-display text-3xl text-gradient-gold">3+</div>
               <div className="mt-2 text-[10px] text-muted-foreground">
                 React · Node · AI/ML
               </div>
