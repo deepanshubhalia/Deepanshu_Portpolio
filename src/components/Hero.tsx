@@ -92,7 +92,10 @@ export function Hero() {
               Hire Me
             </a>
             <a
-              href="#contact"
+              href={resumeUrl}
+              download="Deepanshu_Bhalia_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
               className="flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-sm transition-all hover:border-white/40"
             >
               <Download size={14} /> Resume
