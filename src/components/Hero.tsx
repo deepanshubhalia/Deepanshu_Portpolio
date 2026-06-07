@@ -112,6 +112,7 @@ export function Hero() {
               { Icon: Github, href: "https://github.com/deepanshubhalia" },
               { Icon: Linkedin, href: "https://www.linkedin.com/in/deepanshu-bhalia-7014792a7/" },
               { Icon: Code2, href: "https://leetcode.com/u/deepanshubhalia/" },
+              { Icon: Trophy, href: "https://atcoder.jp/users/deepanshubhalia8" },
             ].map(({ Icon, href }, i) => (
               <a
                 key={i}
