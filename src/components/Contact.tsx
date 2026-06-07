@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, Linkedin, Github, Code2, Copy, Check } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, Code2, Trophy, Copy, Check } from "lucide-react";
 import { useState } from "react";
 
 const cards = [
@@ -8,6 +8,7 @@ const cards = [
   { Icon: Linkedin, label: "LinkedIn", value: "deepanshu-bhalia", href: "https://www.linkedin.com/in/deepanshu-bhalia-7014792a7/" },
   { Icon: Github, label: "GitHub", value: "deepanshubhalia", href: "https://github.com/deepanshubhalia" },
   { Icon: Code2, label: "LeetCode", value: "deepanshubhalia", href: "https://leetcode.com/u/deepanshubhalia/" },
+  { Icon: Trophy, label: "AtCoder", value: "deepanshubhalia8", href: "https://atcoder.jp/users/deepanshubhalia8" },
 ];
 
 export function Contact() {
