@@ -159,11 +159,7 @@ export function Hero() {
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
-                <div>
-                  <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Based in</div>
-                  <div className="font-display text-lg">New Delhi, IN</div>
-                </div>
+              <div className="absolute bottom-4 left-4 right-4 flex items-end justify-end">
                 <div className="text-right">
                   <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Open</div>
                   <div className="flex items-center gap-1.5 text-xs">
