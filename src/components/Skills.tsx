@@ -3,20 +3,24 @@ import { motion } from "framer-motion";
 const skills = [
   { name: "React.js", level: 95 },
   { name: "Node.js", level: 90 },
-  { name: "JavaScript", level: 95 },
-  { name: "TypeScript", level: 85 },
-  { name: "MongoDB", level: 88 },
   { name: "Express.js", level: 90 },
-  { name: "Tailwind CSS", level: 95 },
+  { name: "MERN Stack", level: 92 },
+  { name: "JavaScript", level: 95 },
   { name: "Python", level: 88 },
-  { name: "C++ / DSA", level: 92 },
-  { name: "AI Integrations", level: 87 },
+  { name: "C / C++", level: 92 },
+  { name: "MongoDB", level: 88 },
+  { name: "SQL / DBMS", level: 85 },
+  { name: "REST APIs", level: 90 },
+  { name: "Git / GitHub", level: 92 },
+  { name: "Postman", level: 88 },
+  { name: "Data Structures & Algorithms", level: 92 },
+  { name: "Object-Oriented Programming", level: 90 },
 ];
 
 const marqueeTags = [
-  "HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js",
-  "MongoDB", "SQL", "Python", "C++", "MERN", "REST APIs", "GitHub",
-  "Gemini API", "OpenCV", "Tailwind CSS", "TypeScript", "Next.js",
+  "React.js", "Node.js", "Express.js", "MERN", "MongoDB", "SQL",
+  "REST APIs", "JavaScript", "Python", "C", "C++", "DSA", "OOP",
+  "DBMS", "Git", "GitHub", "Postman", "Tailwind CSS",
 ];
 
 export function Skills() {

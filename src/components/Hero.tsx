@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Download, Github, Linkedin, Code2 } from "lucide-react";
+import { ArrowUpRight, Download, Github, Linkedin, Code2, Trophy } from "lucide-react";
 import portraitAsset from "@/assets/deepanshu.jpeg.asset.json";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 import bg from "@/assets/hero-bg.jpg";
 const portrait = portraitAsset.url;
+const resumeUrl = resumeAsset.url;
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -90,7 +92,10 @@ export function Hero() {
               Hire Me
             </a>
             <a
-              href="#contact"
+              href={resumeUrl}
+              download="Deepanshu_Bhalia_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
               className="flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-sm transition-all hover:border-white/40"
             >
               <Download size={14} /> Resume
@@ -107,6 +112,7 @@ export function Hero() {
               { Icon: Github, href: "https://github.com/deepanshubhalia" },
               { Icon: Linkedin, href: "https://www.linkedin.com/in/deepanshu-bhalia-7014792a7/" },
               { Icon: Code2, href: "https://leetcode.com/u/deepanshubhalia/" },
+              { Icon: Trophy, href: "https://atcoder.jp/users/deepanshubhalia8" },
             ].map(({ Icon, href }, i) => (
               <a
                 key={i}
@@ -153,11 +159,7 @@ export function Hero() {
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
-                <div>
-                  <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Based in</div>
-                  <div className="font-display text-lg">New Delhi, IN</div>
-                </div>
+              <div className="absolute bottom-4 left-4 right-4 flex items-end justify-end">
                 <div className="text-right">
                   <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Open</div>
                   <div className="flex items-center gap-1.5 text-xs">
