@@ -59,8 +59,7 @@ export function Hero() {
             transition={{ duration: 0.8, ease, delay: 0.7 }}
             className="mt-6 max-w-xl text-sm uppercase tracking-[0.25em] text-muted-foreground md:text-base"
           >
-            AI-Powered <span className="text-foreground">Full Stack Developer</span>
-          </motion.p>
+            AI-Powered <span className="text-foreground">Full Stack Developer</span> · Computer Science Undergraduate from <span className="text-foreground">JIIT</span>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
