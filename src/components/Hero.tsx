@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Download, Github, Linkedin, Code2 } from "lucide-react";
+import { ArrowUpRight, Download, Github, Linkedin, Code2, Trophy } from "lucide-react";
 import portraitAsset from "@/assets/deepanshu.jpeg.asset.json";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 import bg from "@/assets/hero-bg.jpg";
 const portrait = portraitAsset.url;
+const resumeUrl = resumeAsset.url;
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
