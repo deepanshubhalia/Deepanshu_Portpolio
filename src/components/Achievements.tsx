@@ -23,7 +23,7 @@ function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
 }
 
 const stats = [
-  { v: 500, s: "+", label: "LeetCode Problems Solved" },
+  { v: 600, s: "+", label: "LeetCode Problems Solved" },
   { v: 365, s: "+", label: "Day LeetCode Streak" },
   { v: 30, s: "/4000+", label: "Frontend Battle Finalist" },
 ];

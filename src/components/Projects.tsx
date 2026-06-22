@@ -11,6 +11,7 @@ const projects = [
       "AI-powered deepfake detection platform combining CNN, Autoencoder and Vision Transformer pipelines for media authenticity verification.",
     tags: ["React", "Python", "OpenCV", "ViT", "CNN"],
     img: fake,
+    link: "https://github.com/deepanshubhalia/Minor2",
   },
   {
     n: "02",
@@ -19,6 +20,7 @@ const projects = [
       "Real-time code review system with bug detection, optimization suggestions and intelligent refactors powered by the Gemini API.",
     tags: ["React", "Node.js", "Express", "Gemini API"],
     img: codeRev,
+    link: "https://code-reviewer-frontend-wxlu.onrender.com/",
   },
 ];
 
@@ -83,12 +85,12 @@ export function Projects() {
                       {p.n} / Case Study
                     </div>
                     <div className="flex gap-2">
-                      <button className="rounded-full border border-white/15 bg-background/40 p-2 backdrop-blur transition hover:border-[var(--gold)] hover:text-gold">
+                      <a href={p.link} target="_blank" rel="noreferrer" className="rounded-full border border-white/15 bg-background/40 p-2 backdrop-blur transition hover:border-[var(--gold)] hover:text-gold">
                         <Github size={14} />
-                      </button>
-                      <button className="rounded-full border border-white/15 bg-background/40 p-2 backdrop-blur transition hover:border-[var(--gold)] hover:text-gold">
+                      </a>
+                      <a href={p.link} target="_blank" rel="noreferrer" className="rounded-full border border-white/15 bg-background/40 p-2 backdrop-blur transition hover:border-[var(--gold)] hover:text-gold">
                         <ArrowUpRight size={14} />
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </motion.div>

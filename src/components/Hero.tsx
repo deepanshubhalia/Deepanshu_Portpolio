@@ -67,11 +67,12 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease, delay: 0.85 }}
-            className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg"
+            className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg"
           >
-            Building modern, scalable web experiences with AI integrations and
-            premium UI / UX — engineered for performance, designed for impact.
+            SDE Intern @ InAmigos | Full Stack Developer (MERN) | 600+ LeetCode (1495) | Codeforces Pupil | React.js • Node.js • MongoDB | AI/ML Enthusiast | JIIT CSE '27
           </motion.p>
+
+
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -171,23 +172,12 @@ export function Hero() {
               </div>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, rotate: 10, y: 40 }}
-              animate={{ opacity: 1, rotate: 8, y: 0 }}
-              transition={{ duration: 1.2, ease, delay: 0.8 }}
-              className="glass absolute -right-4 bottom-12 w-44 rounded-xl p-4"
-            >
-              <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-                Years coding
-              </div>
-              <div className="mt-1 font-display text-3xl text-gradient-gold">3+</div>
-              <div className="mt-2 text-[10px] text-muted-foreground">
-                React · Node · AI/ML
-              </div>
-            </motion.div>
+          </div>
+
           </div>
         </div>
-      </div>
+
+
 
       <motion.div
         initial={{ opacity: 0 }}
