@@ -36,9 +36,9 @@ export function About() {
             className="lg:col-span-7"
           >
             <h2 className="font-display text-[clamp(2.5rem,6vw,5rem)] font-medium leading-[1.05] tracking-tight">
-              <span className="text-gradient">A developer who treats</span>{" "}
-              <em className="text-gradient-gold not-italic">code like couture</em>
-              <span className="text-gradient"> — engineered, intentional, refined.</span>
+              <span className="text-gradient">From solving algorithms to building</span>{" "}
+              <em className="text-gradient-gold not-italic">real-world products</em>
+              <span className="text-gradient"> — turning ideas into impact through code.</span>
             </h2>
           </motion.div>
 
@@ -50,17 +50,9 @@ export function About() {
             className="space-y-6 lg:col-span-5 lg:pt-4"
           >
             <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
-              I'm <span className="text-foreground">Deepanshu Bhalia</span>, a
-              Computer Science undergraduate at Jaypee Institute of Information
-              Technology, crafting performant full-stack products with the MERN
-              stack and modern AI integrations.
+              I'm <span className="text-foreground">Deepanshu Bhalia</span>, a Computer Science undergraduate at JIIT Noida, SDE Intern, and Full-Stack Developer. I specialize in building scalable MERN applications, AI-powered tools, and high-performance web experiences. With 600+ LeetCode problems solved and a Codeforces Pupil rating, I thrive on solving complex problems and turning ideas into real-world products.
             </p>
-            <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
-              From shipping freelance Shopify storefronts to building deepfake
-              detection pipelines and AI-powered code review systems — I sweat
-              the details others scroll past. Off-screen, I represent India in
-              Table Tennis and solve algorithms for sport.
-            </p>
+
 
             <div className="flex flex-wrap gap-2 pt-4">
               {tags.map((t) => (
