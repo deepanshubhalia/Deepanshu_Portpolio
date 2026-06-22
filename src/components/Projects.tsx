@@ -85,12 +85,12 @@ export function Projects() {
                       {p.n} / Case Study
                     </div>
                     <div className="flex gap-2">
-                      <button className="rounded-full border border-white/15 bg-background/40 p-2 backdrop-blur transition hover:border-[var(--gold)] hover:text-gold">
+                      <a href={p.link} target="_blank" rel="noreferrer" className="rounded-full border border-white/15 bg-background/40 p-2 backdrop-blur transition hover:border-[var(--gold)] hover:text-gold">
                         <Github size={14} />
-                      </button>
-                      <button className="rounded-full border border-white/15 bg-background/40 p-2 backdrop-blur transition hover:border-[var(--gold)] hover:text-gold">
+                      </a>
+                      <a href={p.link} target="_blank" rel="noreferrer" className="rounded-full border border-white/15 bg-background/40 p-2 backdrop-blur transition hover:border-[var(--gold)] hover:text-gold">
                         <ArrowUpRight size={14} />
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </motion.div>
