@@ -10,7 +10,7 @@ import { Contact } from "@/components/Contact";
 import { CursorGlow } from "@/components/CursorGlow";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { LoadingScreen } from "@/components/LoadingScreen";
-import { ChatFab } from "@/components/ChatFab";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -44,7 +44,7 @@ function Index() {
       <Projects />
       <Achievements />
       <Contact />
-      <ChatFab />
+      
     </main>
   );
 }
