@@ -72,7 +72,7 @@ export function Hero() {
             SDE Intern @ InAmigos | Full Stack Developer (MERN) | 600+ LeetCode (1495) | Codeforces Pupil | React.js • Node.js • MongoDB | AI/ML Enthusiast | JIIT CSE '27
           </motion.p>
 
-          </motion.p>
+
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
